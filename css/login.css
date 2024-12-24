@@ -1,0 +1,56 @@
+@import "./main.css";
+
+
+
+input{
+    background-color: rgb(148, 147, 120);
+    color: rgb(255, 255, 255);
+    height: 3vw;
+    padding: 1vw;
+    text-align: center;
+    margin-bottom: -0.1vw;
+}
+
+input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.input-gender{
+    margin-top: 3vw;
+    margin-left: 10vw;
+
+    width: 2vw;
+    height: 2vw;
+
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 35vw;
+    margin-bottom: 10vw;
+
+    height: 25vw;
+    width: 30vw;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(148, 147, 120);
+}
+#login_button{
+    font-size: 3vw;
+    padding: 2vw;
+    margin-top: 2vw;
+    background-color: rgb(227, 196, 60);
+}
+
+#login_error{
+    font-size: 1.5vw;
+    color: rgb(182, 53, 53);
+    padding-left: 3vw;
+}
+#date_error {
+    color: rgb(182, 53, 53);
+    font-size: 1.5vw;
+    padding-left: 3vw;
+}
